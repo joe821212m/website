@@ -3,7 +3,8 @@
 	<meta charset="UTF-8">
 	<title>期末</title>
  <script src="js/vue.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.24/vue.min.js"></script>
 	<link rel="stylesheet" href="css/text.css" />
 
 </head>
@@ -47,6 +48,7 @@
                     </template>
                 </ul>
                 <script>
+                alert('hello world')
                 var apiURL = 'http://data.kaohsiung.gov.tw/Opendata/DownLoad.aspx?Type=2&CaseNo1=AV&CaseNo2=2&FileType=1&Lang=C&FolderType=';               
                 var nurserysList = new Vue({
                     el: '#nurserysList'
